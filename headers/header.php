@@ -5,9 +5,9 @@
     <div class="menu">
         <ul class="list">
             <li><a href="./">Products</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="./about-us.php">About Us</a></li>
+            <li><a href="./services.php">Services</a></li>
+            <li><a href="#">Contact Us</a></li> 
         </ul>
     </div>
 </nav>
