@@ -1,9 +1,9 @@
 <section class="products-section">
         <h1>Explore Our Range of High-Quality Transformers and Accessories</h1>
         <div class="products-container">
-            <a href="product1-details.html" class="product-card">
+            <a href="./power-transformer.php" class="product-card">
             <div class="product-image">
-                <img src="./assets/images/product.jpeg" alt="Transformer Cores" loading="lazy">
+                <img src="./assets/images/power-transformer.webp" alt="Transformer Cores" loading="lazy">
             </div>
             <div class="product-details">
                 <h2>Power Transformer</h2>
@@ -12,7 +12,7 @@
             </a>
             <a href="product1-details.html" class="product-card">
             <div class="product-image">
-                <img src="./assets/images/product.jpeg" alt="Transformer Cores" loading="lazy">
+                <img src="./assets/images/Distribution Transformer.webp" alt="Transformer Cores" loading="lazy">
             </div>
             <div class="product-details">
                 <h2>Distribution Transformer</h2>
@@ -21,7 +21,7 @@
             </a>
             <a href="product1-details.html" class="product-card">
             <div class="product-image">
-                <img src="./assets/images/product.jpeg" alt="Transformer Cores" loading="lazy">
+                <img src="./assets/images/Furnace Transformer.webp" alt="Transformer Cores" loading="lazy">
             </div>
             <div class="product-details">
                 <h2>Furnace Transformer</h2>
@@ -57,7 +57,7 @@
             </a>
             <a href="product1-details.html" class="product-card">
             <div class="product-image">
-                <img src="./assets/images/RECTIFIER.webp" alt="Transformer Cores" loading="lazy">
+                <img src="./assets/images/Rectifier Equipments.webp" alt="Transformer Cores" loading="lazy">
             </div>
             <div class="product-details">
                 <h2>Rectifier Equipments</h2>

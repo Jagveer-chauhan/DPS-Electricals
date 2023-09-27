@@ -1,63 +1,63 @@
 <section class="client-reviews-section">
         <div class="container">
             <h2 class="section-title">What Our Clients Say</h2>
-            <div class="container mt-5">
+            <div class="container">
         <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <!-- Testimonial 1 -->
                 <div class="carousel-item active">
                     <div class="text-center p-4">
                         <p class="lead">"DPS Electricals is a reliable partner for all our power needs. Their products have proven to be top-notch, providing us with consistent power and peace of mind. Their customer service is exceptional, always ready to assist with any query. Highly recommended!"</p>
-                        <p class="font-weight-bold mt-2">Jagveer Chauhan</p>
-                        <div class="text-warning">
+                        <div class="text-warning mt-3">
                             ★★★★★ <!-- Use a character-based representation for star ratings -->
                         </div>
+                        <p class="font-weight-bold h5">Jagveer Chauhan</p>
                     </div>
                 </div>
                 <!-- Testimonial 2 -->
                 <div class="carousel-item">
                     <div class="text-center p-4">
                         <p class="lead">"I recently used DPS Electricals' services, and I must say they exceeded my expectations. The technicians were prompt, knowledgeable, and resolved my electrical issue efficiently. Their commitment to quality service is commendable."</p>
-                        <p class="font-weight-bold mt-2">Jane Smith</p>
-                        <div class="text-warning">
+                        <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
+                        <p class="font-weight-bold h5">Jane Smith</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="text-center p-4">
                         <p class="lead">"When our transformer developed a fault, we turned to DPS Electricals for repairing services. They responded swiftly, identified the issue, and had it fixed in no time. Their expertise and quick response saved us from major disruptions."</p>
-                        <p class="font-weight-bold mt-2">Jane Smith</p>
-                        <div class="text-warning">
+                        <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
+                        <p class="font-weight-bold h5">Jane Smith</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="text-center p-4">
                         <p class="lead">"DPS Electricals' maintenance service has been a lifesaver for our company. Their proactive approach to equipment upkeep has reduced downtime significantly. We can always count on them to keep our electrical systems running smoothly."</p>
-                        <p class="font-weight-bold mt-2">Jane Smith</p>
-                        <div class="text-warning">
-                            ★★★★☆ <!-- Example: 4 out of 5 stars -->
+                        <div class="text-warning mt-3">
+                            ★★★★★ <!-- Example: 4 out of 5 stars -->
                         </div>
+                        <p class="font-weight-bold h5">Jane Smith</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="text-center p-4">
                         <p class="lead">"Using DPS Electricals' power transformers has been a game-changer for our operations. These transformers are efficient and dependable, ensuring a stable power supply for our business."</p>
-                        <p class="font-weight-bold mt-2">Jane Smith</p>
-                        <div class="text-warning">
+                        <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
+                        <p class="font-weight-bold h5">Jane Smith</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="text-center p-4">
                         <p class="lead">"We've experienced exceptional voltage control with these transformers. The built-in AVR is a fantastic feature, and it has improved our power management significantly."</p>
-                        <p class="font-weight-bold mt-2">Jane Smith</p>
-                        <div class="text-warning">
+                        <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
+                        <p class="font-weight-bold h5">Jane Smith</p>
                     </div>
                 </div>
                 <!-- Add more testimonials here -->

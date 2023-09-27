@@ -70,7 +70,6 @@
             </div>
         </section>
         <!-- Services Section Ends -->
-
         <?php
         // Products Section
         include './components/products-section.php';

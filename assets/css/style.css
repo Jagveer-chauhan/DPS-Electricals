@@ -55,6 +55,9 @@ h1,h2,h3{
     font-size: 13px;
     font-weight: 400;
 }
+.top-header .menu .list{
+  gap:0px;
+}
 .top-header a{
     text-decoration: none;
     color: inherit;
@@ -90,6 +93,32 @@ h1,h2,h3{
     list-style: none;
     display: flex;
     gap:25px;
+}
+#product-toggle{
+  display: none;
+}
+.products-menu{
+  position: absolute;
+  background: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:15px;
+  width:280px;
+  padding: 20px !important;
+  font-weight: 500;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  font-size: 14px;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -50px;
+}
+.menu .list li:hover .products-menu{
+  transition: all 0.3s ease;
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
 }
 #toggler,.navbar label{
     display: none;
@@ -256,14 +285,14 @@ h1,h2,h3{
   }
   /* #################################### Clients Reviews Section #############################################*/
   .client-reviews-section {
-    padding: 20px 0 40px 0;
+    padding: 20px 0px;
     text-align: center;
   }
   
   .section-title {
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   
   .carousel {
@@ -368,6 +397,17 @@ h1,h2,h3{
 .form-container .enquiry-form input[type=submit]:hover{
   background-color: var(--dark-color);
 }
+/* #################################### Product Page #############################################*/
+.product-banner{
+  background-image: url(../images/products-banner.webp);
+  background-size: cover;
+  width:100%;
+  height:auto;
+}
+.product-detail-text{
+    text-align: justify;
+  }
+
 /* #################################### Footer #############################################*/
 .footer-container{
   display: flex;
@@ -495,13 +535,11 @@ h1,h2,h3{
 
 /* #################################### About US Page #############################################*/
 .about-us-banner{
-  background-color: var(--dark-color);
-  padding: 40px 5px;
-}
-.about-us-banner h1{
-  text-align: center;
-  font-size: 40px;
-  color: var(--light-color);
+  background-image: url(../images/about-us-banner.webp);
+  padding: 3rem 0;
+  background-size: cover;
+  width:100%;
+  height:auto;
 }
 .overview-section{
   display:flex;
@@ -612,7 +650,7 @@ h1,h2,h3{
     .list{
         flex-direction: column;
         align-items: center;
-        padding:20px;
+        padding:20px 0px;
     }
     .navbar label{
         display:inline-flex;
@@ -621,6 +659,29 @@ h1,h2,h3{
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
+    }
+    #product-toggle{
+      display: none;
+    }
+    .product{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .products-menu{
+      position: static;
+      align-items: center;
+      background-color: transparent;
+      box-shadow: none;
+      width: 100%;
+      color: var(--dark-grey);
+      font-weight: 600;
+      font-size:15px;
+      opacity: 1;
+      visibility: visible;
+      margin-left: 0px;
+      gap:25px;
+      padding-bottom:0px !important;
     }
     /* Services Section */
     .services-container
@@ -677,6 +738,9 @@ h1,h2,h3{
       max-width: 100%;
       flex-direction: column;
       justify-content: space-evenly;
+    }
+    .lead{
+      font-size: 0.9rem !important;
     }
   }
 

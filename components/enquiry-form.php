@@ -2,7 +2,7 @@
         <h2>Get A Free Quote For Your Project</h2>
         <div class="enquiry">
             <div class="image-section">
-                <img src="./assets/images/enquiry.jpg" alt="Enquiry form image" loading= "lazy">
+                <img src="./assets/images/enquiry.webp" alt="Enquiry form image" loading= "lazy">
             </div>
             <div class="form-container">
                 <h2>Contact Us</h2>

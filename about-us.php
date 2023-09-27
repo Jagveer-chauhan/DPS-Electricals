@@ -20,9 +20,9 @@
         include './headers/top-header.php';
         include './headers/header.php';
         ?>
-        <section class="about-us-banner">
-            <h1>Welcome to DPS Electricals</h1>
-        </section>
+        <div class="d-flex align-items-center container-fluid p-0 py-5 about-us-banner justify-content-center">
+            <h1 class= "text-light">Welcome to DPS Electricals</h1>
+        </div>
         <section class="overview-section">
             <div class="overview-image">
                 <img src="./assets/images/about.png" alt="" loading="lazy">
