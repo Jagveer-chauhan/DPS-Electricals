@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=UnifrakturCook:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin:0px;
@@ -12,23 +12,35 @@ html{
 {
 --light-color:#ffffff;
 --dark-grey:#333333;
+--blue-color:#018FDC;
 --dark-color:#030e27;
 --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
 }
 body
 {
-    font-family: "Montserrat";
-    color: var(--dark-grey);
-    font-weight: normal;
+    font-family: "Poppins" !important;
+    color: var(--dark-grey) !important;
+    font-weight: normal !important;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--dark-grey);
+}
+a:hover{
+  color:var(--dark-color) !important;
 }
 ul{
   list-style: none;
+  margin-bottom: 0px !important;
+  padding-left: 0px !important;
 }
-/* Top-Header */
+p{
+  margin-bottom: 0px !important;
+}
+h1,h2,h3{
+  font-weight: 600 !important;
+}
+/* #################################### Top Header #############################################*/
 .top-header{
     display:flex;
     flex-wrap: wrap;   
@@ -43,16 +55,16 @@ ul{
     font-size: 13px;
     font-weight: 400;
 }
-.top-header #gmail-icon{
-    position: relative;
-    top:3px;
+.top-header .menu .list{
+  gap:0px;
 }
 .top-header a{
     text-decoration: none;
     color: inherit;
+    color:var(--light-color) !important;
 }
 
-/* Header */
+/* #################################### NavBar #############################################*/
 .navbar{
     display:flex;
     flex-wrap: wrap;   
@@ -82,6 +94,32 @@ ul{
     display: flex;
     gap:25px;
 }
+#product-toggle{
+  display: none;
+}
+.products-menu{
+  position: absolute;
+  background: var(--light-color);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap:15px;
+  width:280px;
+  padding: 20px !important;
+  font-weight: 500;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  font-size: 14px;
+  top: 70px;
+  opacity: 0;
+  visibility: hidden;
+  margin-left: -50px;
+}
+.menu .list li:hover .products-menu{
+  transition: all 0.3s ease;
+  top: 60px;
+  opacity: 1;
+  visibility: visible;
+}
 #toggler,.navbar label{
     display: none;
 }
@@ -95,32 +133,17 @@ ul{
     box-shadow: var(--shadow-black-100);
 }
 
-/* Slider Starts */
-.slider-container {
-    max-width: 100%; 
-    overflow: hidden;
-    position: relative;
-    height: 60vh;
+/* #################################### Slider Section HomePage #############################################*/ 
+  .carousel{
+    margin-top: 0px !important;
   }
-  
-  .slider {
-    display: flex;
-    transition: transform 1s ease-in-out;
-  }
-  
-  .slide {
-    flex: 0 0 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  
   .slide img {
     width: 100%;
     max-height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease-in-out;
   }
-/* Services section */
+/* #################################### Services Section HomePage #############################################*/
   .services-section {
     padding: 60px 0px 0px 0px;
     text-align: center;
@@ -158,6 +181,7 @@ ul{
     color: var(--dark-color);
     font-size: 18px;
     margin: 10px 0;
+    font-weight: 600;
   }
   
   .service p {
@@ -165,7 +189,7 @@ ul{
     color: var(--dark-grey);
   }
   
-  /* Products Section */
+/* #################################### Products Section #############################################*/
   
   .products-section {
     padding: 30px 0;
@@ -175,6 +199,7 @@ ul{
   .products-section h1{
     font-size: 30px;
     margin: 20px 0px 40px 0px;
+    font-weight: 700;
   }
   
   .products-container {
@@ -192,6 +217,7 @@ ul{
     padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: var(--light-color);
+    font-weight: 300;
   }
   
   .product-card:hover {
@@ -210,6 +236,7 @@ ul{
     font-size: 16px;
     margin: 10px 0;
     color: var(--dark-grey);
+    font-weight: 600 !important;
   }
   
   .product-details p {
@@ -217,11 +244,11 @@ ul{
     color: var(--dark-grey);
   }
 
-  /* Partners or Clients */
+/* #################################### Partners Or Clients Section #############################################*/
   .partners-clients-section {
     text-align: center;
-    padding:40px 80px;
-    background-color: #f5f5f5;
+    padding:80px 80px;
+    background-color: var(--blue-color);
   }
 #clients-container{
     background-color: var(--light-color);
@@ -256,16 +283,16 @@ ul{
   .logo-card img:hover {
     filter: grayscale(0);
   }
-  /* Clients Reviews */
+  /* #################################### Clients Reviews Section #############################################*/
   .client-reviews-section {
-    padding: 20px 0 40px 0;
-    background-color: #f5f5f5;
+    padding: 20px 0px;
     text-align: center;
   }
   
   .section-title {
     font-size: 28px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .carousel {
@@ -278,33 +305,110 @@ ul{
     animation: scroll infinite 10s linear;
   }
   
-  .review-card {
-    flex: 0 0 calc(25% - 20px); /* 4 cards in desktop */
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 0 10px;
-  }
-  .review-card p{
+/* #################################### Enquiry Section #############################################*/
+.enquiry-section{
+  text-align: center;
+  padding:40px 120px;
+  background-color: #f5f5f5;
+  color: var(--dark-grey);
+}
+.enquiry-section h2{
+  font-size: 30px;
+}
+.enquiry{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: center;
+  background-color: var(--light-color);
+  box-shadow: var(--shadow-black-100);
+  margin:40px 0px;
+}
+.form-container{
+  display:flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: var(--light-color);
+  width:100%;
+}
+.form-container h2{
+  font-size: 20px;
+  padding:20px 40px 10px 40px;
+  color: var(--dark-grey);
+}
+.enquiry-section .image-section{
+  display: flex;
+  width:100%;
+}
+.image-section img{
+  object-fit: cover;
+  height:auto;
+  width: 100%;
+}
+.form-container .enquiry-form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding:10px 20px;
+}
+.form-container .enquiry-form label{
+  font-weight: 600;
+  font-size: 12px;
+  padding:8px;
+  color:black;
+}
+.form-container .enquiry-form input[type=text],
+.form-container .enquiry-form input[type=email],
+.form-container .enquiry-form input[type=tel]{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  margin:0px 15px;
+  font-size: 15px;
+}
+.form-container .enquiry-form input[type=text]:focus,
+.form-container .enquiry-form input[type=email]:focus,
+.form-container .enquiry-form input[type=tel]:focus{
+  outline: none;
+}
+.form-container .enquiry-form textarea{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  margin:0px 15px;
+  font-size: 15px;
+  height:40px;
+  overflow: hidden;
+}
+.form-container .enquiry-form textarea:focus{
+  outline: none;
+}
+.form-container .enquiry-form input[type=submit]{
+  margin: 20px;
+  width:auto;
+  padding:8px 10px;
+  font-weight: 600;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  border: none;
+  border-radius: 2px;
+  transition: all 0.5s ease; 
+}
+.form-container .enquiry-form input[type=submit]:hover{
+  background-color: var(--dark-color);
+}
+/* #################################### Product Page #############################################*/
+.product-banner{
+  background-image: url(../images/products-banner.webp);
+  background-size: cover;
+  width:100%;
+  height:auto;
+}
+.product-detail-text{
     text-align: justify;
-    font-size: 14px;
   }
-  .review-card h3{
-    margin-top: 10px;
-    font-size: 16px;
-    text-align: start;
-  }
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-25% - 20px)); /* Translate by card width and margin */
-    }
-  }
-  
-/* Footer */
+
+/* #################################### Footer #############################################*/
 .footer-container{
   display: flex;
   flex-direction: row;
@@ -344,11 +448,10 @@ ul{
   display: flex;
   flex-direction: row;
   gap:15px;
+  padding-left:0px !important;
 }
-.social-links ul li img {
-  padding:5px;
-  border:1px solid var(--dark-grey);
-  border-radius: 50%;
+.social-links ul li a:hover > i{
+  color:var(--light-color)
 }
 .page-links{
   display: flex;
@@ -410,6 +513,100 @@ ul{
   font-size: 13px;
   color: var(--dark-grey);
 }
+/* #################################### Footer Copiright Div #############################################*/
+.copyright{
+  background-color: var(--dark-color);
+  padding:10px;
+  display: flex;
+  justify-content: center;
+}
+.copyright p{
+  color:var(--light-color);
+  font-size: 14px;
+  text-align: center;
+}
+.copyright p a{
+  color:var(--light-color);
+  font-weight: 600;
+}
+.copyright p a:hover{
+  color: var(--light-color) !important; 
+}
+
+/* #################################### About US Page #############################################*/
+.about-us-banner{
+  background-image: url(../images/about-us-banner.webp);
+  padding: 3rem 0;
+  background-size: cover;
+  width:100%;
+  height:auto;
+}
+.overview-section{
+  display:flex;
+  width:100%;
+}
+.overview-section img{
+  width:100%;
+  height:auto;
+}
+.overview-section .overview-text{
+  padding:40px 60px;
+  text-align: left;
+  line-height: 1.6rem;
+}
+.overview-section .overview-text h2{
+  font-size: 32px;
+  padding: 20px 0px;
+}
+.overview-section .overview-text p{
+  font-size: 16px;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+.overview-section .overview-text a{
+  font-weight: 600;
+  padding:10px 20px;
+  color:var(--dark-color);
+  border: 1px solid var(--dark-color);
+  border-radius: 25px;
+}
+.overview-section .overview-text a:hover{
+  color: var(--light-color) !important;
+  background-color: var(--dark-color) !important;
+}
+.commitments-section{
+  padding:40px;
+  background-color: #f5f5f5;
+}
+.commitments-section h2{
+  text-align: left;
+  font-size: 36px;
+  color: var(--dark-color);
+  padding-bottom: 10px;
+}
+.commitments{
+  display: flex;
+  flex-direction: row;
+  padding:10px;
+}
+.commitments .commitment-text h3{
+  padding: 30px 0px 10px 0px;
+  text-align: left;
+  color: var(--dark-grey);
+}
+.commitments .commitment-text p{
+  text-align: left;
+  font-weight: 400;
+  color: var(--dark-grey);
+  font-size: 14px;
+  line-height: 20px;
+}
+.commitments .commitment-img img{
+  height:auto;
+  width:100%;
+}
+
+/* #################################### Tablet Media Queries #############################################*/
   @media screen and (max-width: 950px) {
     .footer-container{
       flex-direction: column;
@@ -436,10 +633,11 @@ ul{
     }
     .footer-contact ul li, .footer-contact h2, .footer-contact,
     .footer-contact ul h3, .footer-contact ul li a, .footer-contact ul li p{
-      align-items: center;
-      text-align: center;
+      align-items: center !important;
+      text-align: center !important;
     }
   }
+
   @media screen and (max-width: 768px) {
     .top-header{
         display: none;
@@ -452,7 +650,7 @@ ul{
     .list{
         flex-direction: column;
         align-items: center;
-        padding:20px;
+        padding:20px 0px;
     }
     .navbar label{
         display:inline-flex;
@@ -461,6 +659,29 @@ ul{
     }
     #toggler:checked ~ .menu{
         max-height: 100%;
+    }
+    #product-toggle{
+      display: none;
+    }
+    .product{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .products-menu{
+      position: static;
+      align-items: center;
+      background-color: transparent;
+      box-shadow: none;
+      width: 100%;
+      color: var(--dark-grey);
+      font-weight: 600;
+      font-size:15px;
+      opacity: 1;
+      visibility: visible;
+      margin-left: 0px;
+      gap:25px;
+      padding-bottom:0px !important;
     }
     /* Services Section */
     .services-container
@@ -482,16 +703,19 @@ ul{
     .logo-card {
       flex-basis: calc(25% - 20px); 
     }
-    /* Reviews */
-    .review-card {
-      flex: 0 0 calc(40% - 20px); /* 4 cards in desktop */
+    /* Enquiry Form */
+    .enquiry-section{
+      padding:30px;
+    }
+    .enquiry{
+      flex-direction:column;
+    }
+    .copyright{
+      flex-direction: column;
     }
   }
+  /* #################################### Mobile Media Queries #############################################*/
   @media screen and (max-width: 480px) {
-    /* slider Section */
-    .slider-container {
-      height: 30vh;
-    }
     /* Products Section */
     .products-container {
       grid-template-columns: 1fr;
@@ -508,10 +732,6 @@ ul{
     .logo-card {
       flex-basis: calc(33.33% - 20px); 
     }
-    /* clients Reviews */
-    .review-card {
-      flex: 0 0 calc(80% - 20px); /* 4 cards in desktop */
-    }
     /* footer */
     .page-links{
       display: flex;
@@ -519,4 +739,8 @@ ul{
       flex-direction: column;
       justify-content: space-evenly;
     }
+    .lead{
+      font-size: 0.9rem !important;
+    }
   }
+

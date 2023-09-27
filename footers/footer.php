@@ -8,10 +8,9 @@
             <div class="social-links">
             <h3>Reach out to us</h3>
             <ul>
-                <li><a href="#"><img src="./assets/icons/linkedin-dark.png" alt="linkedin icon" title="linkedin" loading="lazy" height="15" width="15"></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100052344243891"><img src="./assets/icons/facebook-dark.png" alt="facebook icon" title="facebook" loading="lazy" height="15" width="15"></a></li>
-                <li><a href="https://www.instagram.com/dpselectricalsgmail.com1/"><img src="./assets/icons/instagram-dark.png" alt="instagram icon" title="instagram" loading="lazy" height="15" width="15"></a></li>
-                <li><a href="mailto:Dpselectricals@gmail.com"><img src="./assets/icons/gmail-dark.png" alt="gmail icon" title="Gmail" loading="lazy" height="15" width="15"></a></li>
+                <li><a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/profile.php?id=100052344243891"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/dpselectricalsgmail.com1/"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="btn btn-outline-dark btn-floating m-1" href="mailto:Dpselectricals@gmail.com"><i class="fa fa-envelope"></i></a></li>
             </ul>
         </div>
         </div>
@@ -33,10 +32,10 @@
             <div class="col">
                 <h2>Usefull Links</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="./">Home</a></li>
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="./about-us.php">About Us</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>  
@@ -58,8 +57,12 @@
                 <li>
                     <h3>Email:</h3>
                     <a href="mailto:Dpselectricals@gmail.com">Dpselectricals@gmail.com</a>
-                </li>
+                </li>   
             </ul>
         </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; DPS Electricals | 2023 All Right Reserved.&nbsp;</p>
+        <p>Designed by <a href="#">Mr. JRC</a></p>
     </div>
 </footer>
