@@ -40,6 +40,7 @@ p{
 h1,h2,h3{
   font-weight: 600 !important;
 }
+
 /* #################################### Top Header #############################################*/
 .top-header{
     display:flex;
@@ -47,8 +48,8 @@ h1,h2,h3{
     align-items: center;
     justify-content: space-between;
     background-color:var(--dark-color);
-    padding-top:10px;
-    padding-bottom: 10px;
+    /* padding-top:10px;
+    padding-bottom: 10px; */
     padding-left: 30px;
     padding-right: 30px;
     color: var(--light-color);
@@ -605,7 +606,6 @@ h1,h2,h3{
   height:auto;
   width:100%;
 }
-
 /* #################################### Tablet Media Queries #############################################*/
   @media screen and (max-width: 950px) {
     .footer-container{

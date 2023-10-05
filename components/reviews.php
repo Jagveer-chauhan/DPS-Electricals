@@ -11,7 +11,7 @@
                         <div class="text-warning mt-3">
                             ★★★★★ <!-- Use a character-based representation for star ratings -->
                         </div>
-                        <p class="font-weight-bold h5">Jagveer Chauhan</p>
+                        <p class="font-weight-bold h5">Rahul Chauhan</p>
                     </div>
                 </div>
                 <!-- Testimonial 2 -->
@@ -21,7 +21,7 @@
                         <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
-                        <p class="font-weight-bold h5">Jane Smith</p>
+                        <p class="font-weight-bold h5">Amit kumar</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -30,7 +30,7 @@
                         <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
-                        <p class="font-weight-bold h5">Jane Smith</p>
+                        <p class="font-weight-bold h5">Ashish bindal</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -39,7 +39,7 @@
                         <div class="text-warning mt-3">
                             ★★★★★ <!-- Example: 4 out of 5 stars -->
                         </div>
-                        <p class="font-weight-bold h5">Jane Smith</p>
+                        <p class="font-weight-bold h5">Rohit Sharma</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -48,7 +48,7 @@
                         <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
-                        <p class="font-weight-bold h5">Jane Smith</p>
+                        <p class="font-weight-bold h5">Anuj Mittal</p>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -57,7 +57,7 @@
                         <div class="text-warning mt-3">
                             ★★★★☆ <!-- Example: 4 out of 5 stars -->
                         </div>
-                        <p class="font-weight-bold h5">Jane Smith</p>
+                        <p class="font-weight-bold h5">Pawan Singh</p>
                     </div>
                 </div>
                 <!-- Add more testimonials here -->

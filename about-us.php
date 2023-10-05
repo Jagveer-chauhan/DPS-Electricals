@@ -21,7 +21,7 @@
         include './headers/header.php';
         ?>
         <div class="d-flex align-items-center container-fluid p-0 py-5 about-us-banner justify-content-center">
-            <h1 class= "text-light">Welcome to DPS Electricals</h1>
+            <h1 class= "text-light text-center my-3">Welcome to DPS Electricals</h1>
         </div>
         <section class="overview-section">
             <div class="overview-image">
@@ -42,7 +42,7 @@
                     <p>Our overarching mission is to empower businesses, industries, and communities with reliable, efficient, and sustainable power solutions. We recognize the pivotal role that electricity plays in the modern world, and our mission is to ensure a stable and efficient power supply for all. Our unwavering dedication to this mission fuels our efforts to provide cutting-edge electrical solutions that empower our clients' endeavors.</p>
                 </div>
                 <div class="commitment-img">
-                    <img src="./assets/images/7.png" alt="" loading="lazy">
+                    <img src="./assets/images/vision-mission.webp" alt="" loading="lazy">
                 </div>
             </div>
         </section>
