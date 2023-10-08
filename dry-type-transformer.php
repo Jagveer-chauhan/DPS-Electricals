@@ -73,7 +73,7 @@
                             </tr>
                             <tr>
                                 <td>Tap Changer</td>
-                                <td>OCTC, OLTC</td>
+                                <td>OCTC</td>
                             </tr>
                         </table>
                     </div>

@@ -74,9 +74,9 @@
         // Products Section
         include './components/products-section.php';
         ?>
-        <section class="about-section bg-white">
+        <section class=" w-100 bg-white">
             <div class="row">
-                <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-6">
+                 <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-6">
                     <div class="text-center pe-5 me-5">
                         <img src="./assets/images/10 years of trust.webp" alt="dps electricals 1o years of trust image" class="img-fluid" height="150" width="150" loading="lazy">
                     </div>

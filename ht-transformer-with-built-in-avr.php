@@ -28,14 +28,59 @@
                 <div class=" d-flex flex-column col-lg-8 p-lg-5 p-md-5 p-sm-5 mt-2 bg-white">
                     <img src="./assets/images/HT Transformer With Built In AVR.webp" class="img-fluid" alt="HT Transformer With Built In AVR image" loading="lazy">
                     <h1 class="py-4 text-primary">HT Transformer With Built In AVR <hr class="w-50 mt-1 border border-3 border-primary rounded-circle"></h1>
-                    <p class="mb-4 product-detail-text">DPS Electricals proudly presents its precision-engineered state-of-the-art HT Servo Stabilizer (HT AVR). As the name suggests, this HT AVR operates "on load," continuously and directly influencing the HT line to provide a stable HT voltage output. The HT AVR effectively manages the fluctuating HT voltage from the grid supply, maintaining an impressive accuracy level of +/-1%. This stabilized voltage is then seamlessly supplied to the transformer, ensuring a constant LT (Low Tension) output with an equally remarkable +/-1% accuracy.</p>
-                    <p class="mb-4 product-detail-text">At DPS Electricals, we are committed to delivering innovative and reliable voltage stabilization solutions that ensure the flawless operation of your critical equipment, even in the face of challenging voltage fluctuations.</p>
+                    <p class="mb-4 product-detail-text">It's a unique product that combines the features of a Standard Distribution Transformer and an HT Automatic Voltage Regulator. While a Standard Transformer with OLTC can correct voltage variations in specific steps, our product operates seamlessly, continuously monitoring and adjusting the output voltage.</p>
+                    <p class="mb-4 product-detail-text">Our solution stabilizes the incoming fluctuating H.T. supply before passing it through the step-down transformer, ensuring that the L.T. output is consistently maintained with an impressive accuracy level of ±1%.</p>
+                    <div class="row">
+                        <h2 class="py-2 h5 text-primary">STANDARD FITTINGS</h2>
+                        <ul>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Rating & Diagram plate :</span> Earthing terminals.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Lifting lugs :</span> Thermometer pocket.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Oil Conservator with drain plug :</span> Air release hole with plug.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Oil Level indicator :</span>Explosion vent with diaphragm.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Top-filter Valve:</span> Inspection cover.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Silica gel breather :</span>Drain –cum-bottom-filter valve.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i><span class="h6">Cooling radiators :</span> Uni / Bi- directional rollers</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h2 class="py-2 h5 text-primary">OPTIONAL FEATURES</h2>
+                        <ul>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>We incorporate a Buchholz relay with alarm and trip contacts, along with a magnetic oil level gauge featuring an alarm contact.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Our setup includes a pressure release valve and a marshalling box designed to accommodate O.T.I. and W.T.I.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Both H.T. and L.T. sides are equipped with dedicated cable boxes.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>An oil temperature indicator with alarm and trip contacts is integrated into our system, alongside the RTCC (Remote Tap Changer Control) Cubicle.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Additionally, we provide a winding temperature indicator featuring alarm and trip contacts, enhancing the functionality of our Electronic Automatic Voltage Controller.</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h2 class="py-2 h5 text-primary">TECHNICAL ADVANTAGES</h2>
+                        <ul>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Maintenance is effortless, requiring no specialized manpower.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Our system offers undistorted output characteristics with no waveform distortion.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>With minimal mass and low torque, moving parts on the L.T. side are exceptionally lightweight.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Enjoy energy savings and high efficiency, reaching approximately 99%, while keeping no-load losses to a minimum.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Our design emphasizes simplicity and flexibility.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Experience on-load stepless voltage variation for precise control.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Count on a long service life for enduring performance.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Our system undergoes impulse testing to ensure reliability.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Regulating coils are wound with rectangular conductors on their edge, providing exceptional mechanical strength compared to other designs.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Benefit from a cost-effective replacement process.</li>
+                        </ul>
+                    </div>
                     <div class="row py-4 px-2">
                         <table class="table table-bordered table-hover">
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>From 100 KVA to 10MVA</td>
+                                <td>Up to 10000 KVA</td>
+                            </tr>
+                            <tr>
+                                <td>Frequency</td>
+                                <td>50 Hz.</td>
+                            </tr>
+                            <tr>
+                                <td>Tapping</td>
+                                <td>+5% to -15% Taps on H.T. Side in steps of 1.25% each.</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>

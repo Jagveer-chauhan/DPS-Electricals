@@ -542,7 +542,7 @@ h1,h2,h3{
   width:100%;
   height:auto;
 }
-.overview-section{
+/* .overview-section{
   display:flex;
   width:100%;
 }
@@ -563,15 +563,15 @@ h1,h2,h3{
   font-size: 16px;
   text-align: justify;
   padding-bottom: 40px;
-}
-.overview-section .overview-text a{
+} */
+.contact-link{
   font-weight: 600;
   padding:10px 20px;
   color:var(--dark-color);
   border: 1px solid var(--dark-color);
   border-radius: 25px;
 }
-.overview-section .overview-text a:hover{
+.contact-link:hover{
   color: var(--light-color) !important;
   background-color: var(--dark-color) !important;
 }

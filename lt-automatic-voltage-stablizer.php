@@ -52,16 +52,31 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="row">
+                    <h2 class="py-2 h5 text-primary">LT Automatic Voltage Stablizers advantages</h2>
+                        <ul>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Experience fewer breakdowns and interruptions in your electrical equipment's operation.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Enjoy energy savings ranging from 5% to 10%, leading to reduced electricity bills.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Benefit from minimal wear and tear, resulting in lower maintenance expenses.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Ensure efficient power flow with a superior copper strip current conductor.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Experience low no-load losses thanks to the use of pure CRGO core materials, optimizing energy efficiency.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Save time and effort by conducting hassle-free inspections of the carbon roller.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>In case of controller or motor failure, seamless shifting between automatic, motor, and manual modes ensures reliable operation.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Achieve outstanding efficiency levels of approximately 98% to 99%.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Enjoy flexible installation options for both indoor and outdoor service applications.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Count on a long operational lifespan of 15 to 20 years under normal working conditions, ensuring lasting reliability and value.</li>
+                        </ul>
+                    </div>
                     <div class="row py-4 px-2">
                         <table class="table table-bordered table-hover">
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>up to 20 kVA</td>
+                                <td>up to 5000 kVA</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>
-                                <td>400V 1%,3 Phase, 50 Hz</td>
+                                <td>400V 1%, 3 Phase, 50 Hz</td>
                             </tr>
                             <tr>
                                 <td>Cooling</td>

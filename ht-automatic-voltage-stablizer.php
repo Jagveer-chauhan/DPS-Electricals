@@ -35,7 +35,7 @@
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>Up to 15000 KVA</td>
+                                <td>Up to 5000 KVA</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>

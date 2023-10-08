@@ -23,18 +23,18 @@
         <div class="d-flex align-items-center container-fluid p-0 py-5 about-us-banner justify-content-center">
             <h1 class= "text-light text-center my-3">Welcome to DPS Electricals</h1>
         </div>
-        <section class="overview-section">
-            <div class="overview-image">
-                <img src="./assets/images/about.png" alt="" loading="lazy">
+        <section class="d-flex flex-row">
+            <div class="image-fluid d-none d-md-block col-md-6">
+                <img src="./assets/images/about.png" alt="" width="100%" loading="lazy">
             </div>
-            <div class="overview-text">
+            <div class="px-4 py-5 text-center text-md-start col-md-6">
                 <h2>About DPS Electricals</h2>
-                <p>At DPS Electricals, we are a trusted leader in the power and electrical solutions industry. With a rich history spanning 10 years, we have consistently delivered top-tier products and services to clients worldwide.Our commitment to excellence is rooted in our core values of quality, reliability, and innovation. We specialize in the design, manufacturing, and maintenance of a wide range of electrical products, including power transformers, distribution transformers, and voltage stabilizers.</p>
-                <a href="./contact-us.php">Contact Us</a>
+                <p class="mx-sm-4 mt-3 mb-5">At DPS Electricals, we are a trusted leader in the power and electrical solutions industry. With a rich history spanning 10 years, we have consistently delivered top-tier products and services to clients worldwide.Our commitment to excellence is rooted in our core values of quality, reliability, and innovation. We specialize in the design, manufacturing, and maintenance of a wide range of electrical products, including power transformers, distribution transformers, and voltage stabilizers.</p>
+                <a class="contact-link ms-4" href="./contact-us.php">Contact Us</a>
             </div>
         </section>
         <section class="commitments-section">
-            <div class="commitments">
+            <div class="d-flex flex-row">
                 <div class="commitment-text">
                     <h2>Our Commitments</h2>
                     <p>Our commitment to quality is at the core of our identity. We meticulously adhere to stringent quality control measures across all facets of our operations. Each electrical solution we offer undergoes rigorous testing to ensure that it not only meets but consistently exceeds the industry's highest standards. Our steadfast dedication to quality is the bedrock of our reputation.</p>

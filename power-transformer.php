@@ -56,10 +56,6 @@
                         <table class="table table-bordered table-hover">
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
-                                <td>Capacity</td>
-                                <td>From 1 MVA to 50 MVA</td>
-                            </tr>
-                            <tr>
                                 <td>Voltage Class</td>
                                 <td>1.1kV, 2.2kV, 3.3kV, 6.6kV, 6.9kV, 11kV, 12.47kV, 13.2kV, 13.8kV, 15kV 22kV, 25kV, 33kV, 34.5kV, 66kV, 69kV (Any Special Customised Class as per requirement)</td>
                             </tr>
