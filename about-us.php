@@ -34,15 +34,15 @@
             </div>
         </section>
         <section class="commitments-section">
-            <div class="d-flex flex-row">
-                <div class="commitment-text">
-                    <h2>Our Commitments</h2>
+            <div class="d-flex flex-column-reverse flex-md-row p-md-4">
+                <div class="px-2 px-md-4 py-2 my-2 text-center text-md-start col-md-6">
+                    <h2 class="text-center text-md-start">Our Commitments</h2>
                     <p>Our commitment to quality is at the core of our identity. We meticulously adhere to stringent quality control measures across all facets of our operations. Each electrical solution we offer undergoes rigorous testing to ensure that it not only meets but consistently exceeds the industry's highest standards. Our steadfast dedication to quality is the bedrock of our reputation.</p>
-                    <h3>Our Mission</h3>
+                    <h3 class="py-2">Our Mission</h3>
                     <p>Our overarching mission is to empower businesses, industries, and communities with reliable, efficient, and sustainable power solutions. We recognize the pivotal role that electricity plays in the modern world, and our mission is to ensure a stable and efficient power supply for all. Our unwavering dedication to this mission fuels our efforts to provide cutting-edge electrical solutions that empower our clients' endeavors.</p>
                 </div>
-                <div class="commitment-img">
-                    <img src="./assets/images/vision-mission.webp" alt="" loading="lazy">
+                <div class="image-fluid col-md-6 pt-4">
+                    <img src="./assets/images/vision-mission.webp" alt="" width= "100%" loading="lazy">
                 </div>
             </div>
         </section>

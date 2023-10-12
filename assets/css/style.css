@@ -40,7 +40,9 @@ p{
 h1,h2,h3{
   font-weight: 600 !important;
 }
-
+.dark-bg{
+  background-color: #f5f5f5; 
+}
 /* #################################### Top Header #############################################*/
 .top-header{
     display:flex;
@@ -542,28 +544,6 @@ h1,h2,h3{
   width:100%;
   height:auto;
 }
-/* .overview-section{
-  display:flex;
-  width:100%;
-}
-.overview-section img{
-  width:100%;
-  height:auto;
-}
-.overview-section .overview-text{
-  padding:40px 60px;
-  text-align: left;
-  line-height: 1.6rem;
-}
-.overview-section .overview-text h2{
-  font-size: 32px;
-  padding: 20px 0px;
-}
-.overview-section .overview-text p{
-  font-size: 16px;
-  text-align: justify;
-  padding-bottom: 40px;
-} */
 .contact-link{
   font-weight: 600;
   padding:10px 20px;
@@ -576,36 +556,17 @@ h1,h2,h3{
   background-color: var(--dark-color) !important;
 }
 .commitments-section{
-  padding:40px;
   background-color: #f5f5f5;
 }
-.commitments-section h2{
-  text-align: left;
-  font-size: 36px;
-  color: var(--dark-color);
-  padding-bottom: 10px;
-}
-.commitments{
-  display: flex;
-  flex-direction: row;
-  padding:10px;
-}
-.commitments .commitment-text h3{
-  padding: 30px 0px 10px 0px;
-  text-align: left;
-  color: var(--dark-grey);
-}
-.commitments .commitment-text p{
-  text-align: left;
-  font-weight: 400;
-  color: var(--dark-grey);
-  font-size: 14px;
-  line-height: 20px;
-}
-.commitments .commitment-img img{
-  height:auto;
+/* #################################### Services #############################################*/
+.services-banner{
+  background-image: url(../images/about-us-banner.webp);
+  padding: 3rem 0;
+  background-size: cover;
   width:100%;
+  height:auto;
 }
+
 /* #################################### Tablet Media Queries #############################################*/
   @media screen and (max-width: 950px) {
     .footer-container{
