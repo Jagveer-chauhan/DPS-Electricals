@@ -1,3 +1,22 @@
+<?php
+include 'connection.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $mobile_number = $_POST['mobile-number'];
+    $message = $_POST['message'];
+
+    $sql = "insert into enquiries (name,email,mobile_number,message) values('$name','$email',$mobile_number,'$message')";
+    
+    if(!mysqli_query($conn, $sql))
+    {
+        echo mysqli_error($conn);
+    }
+    
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -38,7 +57,7 @@
                 </div>
                 <div class="form-container col-lg-6 col-md-6">
                     <h2>Contact Us</h2>
-                    <form class="enquiry-form" action="submit_enquiry.php" method="post">
+                    <form class="enquiry-form" action="contact-us.php" method="post">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" required>
 
@@ -46,7 +65,7 @@
                         <input type="email" id="email" name="email" required>
 
                         <label for="mobile-number">Mobile Number</label>
-                        <input Type="tel" id="mobile-number" name="mobile-number" required>
+                        <input type="text" pattern="[789][0-9]{9}" id="mobile-number" name="mobile-number" required>
 
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="4" required></textarea>
