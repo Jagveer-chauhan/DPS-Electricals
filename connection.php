@@ -1,8 +1,5 @@
 <?php
-    // $servername = "localhost";
-    // $database = "u654105001_dps";
-    // $username = "u654105001_rootuser";
-    // $password = "Dpselectricals@123";
+
     $servername = "localhost";
     $database = "dps";
     $username = "root";
