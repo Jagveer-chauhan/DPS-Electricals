@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/dps electricals banner.webp" alt="Image 1" loading="lazy" height="auto" width="auto">
+                    <img src="./assets/images/dps electricals banner.webp" alt="Image 1"  height="auto" width="auto">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/dps electricals banner electricals future.webp" alt="Image 1" loading="lazy" height="auto" width="auto">
