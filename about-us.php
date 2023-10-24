@@ -21,28 +21,28 @@
         include './headers/header.php';
         ?>
         <div class="d-flex align-items-center container-fluid p-0 py-5 about-us-banner justify-content-center">
-            <h1 class= "text-light">Welcome to DPS Electricals</h1>
+            <h1 class= "text-light text-center my-3">Welcome to DPS Electricals</h1>
         </div>
-        <section class="overview-section">
-            <div class="overview-image">
-                <img src="./assets/images/about.png" alt="" loading="lazy">
+        <section class="d-flex flex-row">
+            <div class="image-fluid d-none d-md-block col-md-6">
+                <img src="./assets/images/about.png" alt="" width="100%" loading="lazy">
             </div>
-            <div class="overview-text">
+            <div class="px-4 py-5 text-center text-md-start col-md-6">
                 <h2>About DPS Electricals</h2>
-                <p>At DPS Electricals, we are a trusted leader in the power and electrical solutions industry. With a rich history spanning 10 years, we have consistently delivered top-tier products and services to clients worldwide.Our commitment to excellence is rooted in our core values of quality, reliability, and innovation. We specialize in the design, manufacturing, and maintenance of a wide range of electrical products, including power transformers, distribution transformers, and voltage stabilizers.</p>
-                <a href="./contact-us.php">Contact Us</a>
+                <p class="mx-sm-4 mt-3 mb-5">At DPS Electricals, we are a trusted leader in the power and electrical solutions industry. With a rich history spanning 10 years, we have consistently delivered top-tier products and services to clients worldwide.Our commitment to excellence is rooted in our core values of quality, reliability, and innovation. We specialize in the design, manufacturing, and maintenance of a wide range of electrical products, including power transformers, distribution transformers, and voltage stabilizers.</p>
+                <a class="contact-link ms-4" href="./contact-us.php">Contact Us</a>
             </div>
         </section>
         <section class="commitments-section">
-            <div class="commitments">
-                <div class="commitment-text">
-                    <h2>Our Commitments</h2>
+            <div class="d-flex flex-column-reverse flex-md-row p-md-4">
+                <div class="px-2 px-md-4 py-2 my-2 text-center text-md-start col-md-6">
+                    <h2 class="text-center text-md-start">Our Commitments</h2>
                     <p>Our commitment to quality is at the core of our identity. We meticulously adhere to stringent quality control measures across all facets of our operations. Each electrical solution we offer undergoes rigorous testing to ensure that it not only meets but consistently exceeds the industry's highest standards. Our steadfast dedication to quality is the bedrock of our reputation.</p>
-                    <h3>Our Mission</h3>
+                    <h3 class="py-2">Our Mission</h3>
                     <p>Our overarching mission is to empower businesses, industries, and communities with reliable, efficient, and sustainable power solutions. We recognize the pivotal role that electricity plays in the modern world, and our mission is to ensure a stable and efficient power supply for all. Our unwavering dedication to this mission fuels our efforts to provide cutting-edge electrical solutions that empower our clients' endeavors.</p>
                 </div>
-                <div class="commitment-img">
-                    <img src="./assets/images/7.png" alt="" loading="lazy">
+                <div class="image-fluid col-md-6 pt-4">
+                    <img src="./assets/images/vision-mission.webp" alt="" width= "100%" loading="lazy">
                 </div>
             </div>
         </section>

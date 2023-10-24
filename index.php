@@ -1,3 +1,21 @@
+<?php
+include 'connection.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") 
+{
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $mobile_number = $_POST['mobile-number'];
+    $message = $_POST['message'];
+
+    $sql = "insert into enquiries (name,email,mobile_number,message) values('$name','$email',$mobile_number,'$message')";
+    
+    if(!mysqli_query($conn, $sql))
+    {
+        echo mysqli_error($conn);
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +41,7 @@
         <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./assets/images/dps electricals banner.webp" alt="Image 1" loading="lazy" height="auto" width="auto">
+                    <img src="./assets/images/dps electricals banner.webp" alt="Image 1"  height="auto" width="auto">
                 </div>
                 <div class="carousel-item">
                     <img src="./assets/images/dps electricals banner electricals future.webp" alt="Image 1" loading="lazy" height="auto" width="auto">
@@ -70,15 +88,69 @@
             </div>
         </section>
         <!-- Services Section Ends -->
-        <?php
+        <?php 
         // Products Section
         include './components/products-section.php';
+        ?>
+        <section class=" w-100 bg-white p-3">
+            <div class="row">
+                 <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-6 py-5">
+                    <div class="text-center pe-5 me-5">
+                        <img src="./assets/images/10 years of trust.webp" alt="dps electricals 1o years of trust image" class="img-fluid" height="150" width="150" loading="lazy">
+                    </div>
+                    <div class="text-center ps-5 ms-5">
+                        <img src="./assets/images/Isi_mark.webp" alt="dps electricals is ISI verified" class="img-fluid" height="150" width="150" loading="lazy">
+                        <p class="mt-n2 fw-bold text-primary">ISI Certified</p>
+                    </div>
+                    <div class="text-center pe-5 me-5">
+                        <img src="./assets/images/bureau-of-indian-standards-logo.webp" alt="dps electricals is BIS verified" class="img-fluid" height="150" width="150" loading="lazy">
+                        <p class="mt-n2 fw-bold text-primary">BIS Certified</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 p-5 pe-0">
+                    <h1 class="h6 py-2 text-primary">About Us</h1>
+                    <h2 class="h4 text-left w-75">Your one-stop shop for transformer manufacturing, AMC, and repairing services.</h2>
+                    <div class="p-lg-4 p-md-3">
+                        <p class="text-left text-muted"><small>DPS Electricals is your one-stop shop for all your transformer needs. We manufacture a wide range of transformers to meet the diverse requirements of our customers.</small></p>
+                        <p class="text-left text-muted py-3"><small>We also offer AMC and repairing services to ensure that your transformers are always in good condition and operating at peak efficiency.</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <?php
         // clients section
         include './components/clients.php';
         // Reviews Slider Section
         include './components/reviews.php';
-        // Enquiry Form Section
-        include './components/enquiry-form.php';
+        ?>
+        <section class="enquiry-section">
+        <h2>Get A Free Quote For Your Project</h2>
+            <div class="enquiry">
+                <div class="image-section">
+                    <img src="./assets/images/enquiry.webp" alt="Enquiry form image" height="auto" loading= "lazy">
+                </div>
+                <div class="form-container">
+                    <h2>Contact Us</h2>
+                    <form class="enquiry-form" action="index.php" method="post">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="mobile-number">Mobile Number</label>
+                        <input type="text" pattern="[789][0-9]{9}" id="mobile-number" name="mobile-number" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <?php
         // Footer Section
         include './footers/footer.php';
         ?>
