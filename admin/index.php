@@ -18,6 +18,7 @@ $sql = "SELECT * FROM enquiries order by date desc";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="../assets/icons/logo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enquiries</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -26,7 +27,7 @@ $sql = "SELECT * FROM enquiries order by date desc";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-light bg-light justify-content-between shadow">
+    <nav class="navbar navbar-light bg-light justify-content-between shadow w-100">
         <a class="navbar-brand ps-4" href="./index.php">
             <img src="../assets/images/logo.png" width="80px" alt="">
         </a>
@@ -34,8 +35,8 @@ $sql = "SELECT * FROM enquiries order by date desc";
             <a class="btn btn-outline-danger" href="./login.php">Log Out</a>
         </span>
     </nav>
-    <div class="container m-5">
-      <table class="table table-bordered">
+    <div class="container-fluid">
+      <table class="table table-bordered table-hover">
         <thead class="table-dark">
           <tr>
           <th scope="col">Sr. No.</th>
@@ -51,7 +52,7 @@ $sql = "SELECT * FROM enquiries order by date desc";
         $i=1;
         foreach($enquiries as $enquiry)
         {
-            echo "<tr><td>".$i."</td><td>".$enquiry['name']."</td><td>".$enquiry['email']."</td><td>".$enquiry['mobile_number']."</td><td>".$enquiry['message']."</td><td>".date('d-M-Y',strtotime($enquiry['date']))."</td></tr>";
+            echo "<tr><td>".$i."</td><td>".$enquiry['name']."</td><td>".$enquiry['email']."</td><td>".$enquiry['mobile_number']."</td><td>".$enquiry['message']."</td><td width='110px'>".date('d M Y',strtotime($enquiry['date']))."</td></tr>";
             $i++;
         }
         ?>

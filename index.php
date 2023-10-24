@@ -92,9 +92,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         // Products Section
         include './components/products-section.php';
         ?>
-        <section class=" w-100 bg-white">
+        <section class=" w-100 bg-white p-3">
             <div class="row">
-                 <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-6">
+                 <div class="d-flex flex-column justify-content-center col-lg-6 col-md-6 col-sm-6 py-5">
                     <div class="text-center pe-5 me-5">
                         <img src="./assets/images/10 years of trust.webp" alt="dps electricals 1o years of trust image" class="img-fluid" height="150" width="150" loading="lazy">
                     </div>
@@ -107,10 +107,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
                         <p class="mt-n2 fw-bold text-primary">BIS Certified</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 p-5">
+                <div class="col-lg-6 col-md-6 col-sm-6 p-5 pe-0">
                     <h1 class="h6 py-2 text-primary">About Us</h1>
-                    <h2 class="h4 text-left pe-lg-3 pe-md-3">Your one-stop shop for transformer manufacturing, AMC, and repairing services.</h2>
-                    <div class="p-lg-5 p-md-3">
+                    <h2 class="h4 text-left w-75">Your one-stop shop for transformer manufacturing, AMC, and repairing services.</h2>
+                    <div class="p-lg-4 p-md-3">
                         <p class="text-left text-muted"><small>DPS Electricals is your one-stop shop for all your transformer needs. We manufacture a wide range of transformers to meet the diverse requirements of our customers.</small></p>
                         <p class="text-left text-muted py-3"><small>We also offer AMC and repairing services to ensure that your transformers are always in good condition and operating at peak efficiency.</small></p>
                     </div>
@@ -128,7 +128,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         <h2>Get A Free Quote For Your Project</h2>
             <div class="enquiry">
                 <div class="image-section">
-                    <img src="./assets/images/enquiry.webp" alt="Enquiry form image" loading= "lazy">
+                    <img src="./assets/images/enquiry.webp" alt="Enquiry form image" height="auto" loading= "lazy">
                 </div>
                 <div class="form-container">
                     <h2>Contact Us</h2>

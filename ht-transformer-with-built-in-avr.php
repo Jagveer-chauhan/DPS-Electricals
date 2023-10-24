@@ -48,7 +48,7 @@
                             <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>We incorporate a Buchholz relay with alarm and trip contacts, along with a magnetic oil level gauge featuring an alarm contact.</li>
                             <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Our setup includes a pressure release valve and a marshalling box designed to accommodate O.T.I. and W.T.I.</li>
                             <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Both H.T. and L.T. sides are equipped with dedicated cable boxes.</li>
-                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>An oil temperature indicator with alarm and trip contacts is integrated into our system, alongside the RTCC (Remote Tap Changer Control) Cubicle.</li>
+                            <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>An oil temperature indicator with alarm and trip contacts is integrated into our system.</li>
                             <li class="px-2 py-1"><i class="fa-solid fa-circle-arrow-right pe-2"></i>Additionally, we provide a winding temperature indicator featuring alarm and trip contacts, enhancing the functionality of our Electronic Automatic Voltage Controller.</li>
                         </ul>
                     </div>
@@ -72,15 +72,15 @@
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>Up to 10000 KVA</td>
+                                <td>Up to 5000 KVA</td>
                             </tr>
                             <tr>
                                 <td>Frequency</td>
                                 <td>50 Hz.</td>
                             </tr>
                             <tr>
-                                <td>Tapping</td>
-                                <td>+5% to -15% Taps on H.T. Side in steps of 1.25% each.</td>
+                                <td>Range</td>
+                                <td>Example 9000-12000(As per customer requirement)</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>

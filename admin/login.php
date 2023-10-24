@@ -11,6 +11,7 @@ session_unset();
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
+  <link rel="icon" type="image/x-icon" href="../assets/icons/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>DPS Admin</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -21,9 +22,9 @@ session_unset();
 </head>
 
 <body>
-  <div class="container-fluid w-100 p-5">
-    <div class="row d-flex justify-content-center p-5">
-      <div class="card col-4 shadow px-4">
+  <div class="container-fluid w-100 py-5 p-md-5">
+    <div class="row d-flex justify-content-center p-md-5">
+      <div class="col-sm-6 col-lg-6 shadow-md px-4">
         <div class="card-body">
           <h3 class="card-title text-center mb-3">Login</h3>
           <form action="login_action.php" method="POST">

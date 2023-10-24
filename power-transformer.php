@@ -28,7 +28,7 @@
                 <div class=" d-flex flex-column col-lg-8 p-lg-5 p-md-5 p-sm-5 mt-2 bg-white">
                     <img src="./assets/images/power-transformer.webp" class="img-fluid" alt="power transformer image" loading="lazy">
                     <h1 class="py-4 text-primary">Power Transformer <hr class="w-50 mt-1 border border-3 border-primary rounded-circle"></h1>
-                    <p class="mb-4 product-detail-text">DPS Electricals offers a comprehensive range of power transformers designed to meet various specifications. Our power transformers are engineered to deliver impressive performance, featuring capacities of up to 50 MVA and primary/secondary voltage ratings of up to 66kV. These transformers are available with both Off-Circuit Tap Changer (OCTC) and On-Load Tap Changer (OLTC) options, accompanied by the necessary accessories. Our power transformers are oil-immersed, ensuring robust and reliable operation with an impressive life expectancy of approximately 30 years. At DPS Electricals, we take pride in manufacturing highly efficient and cost-effective power transformers that align with the stringent requirements of State Electricity Boards. For added safety, our power transformers can be equipped with Nitrogen Infused Fire Protection System (NIFPS), tailored to meet the specific needs of our customers. These transformers play a crucial role in transmission networks by facilitating the voltage level adjustments necessary for efficient energy transmission while minimizing energy losses. They excel during high or peak load conditions and offer maximum efficiency at or near full load.</p>
+                    <p class="mb-4 product-detail-text">DPS Electricals offers a comprehensive range of power transformers designed to meet various specifications. Our power transformers are engineered to deliver impressive performance. These transformers are available with both Off-Circuit Tap Changer (OCTC) and On-Load Tap Changer (OLTC) options, accompanied by the necessary accessories. Our power transformers are oil-immersed, ensuring robust and reliable operation with an impressive life expectancy of approximately 30 years. At DPS Electricals, we take pride in manufacturing highly efficient and cost-effective power transformers that align with the stringent requirements of State Electricity Boards. These transformers play a crucial role in transmission networks by facilitating the voltage level adjustments necessary for efficient energy transmission while minimizing energy losses. They excel during high or peak load conditions and offer maximum efficiency at or near full load.</p>
                     <div class="row">
                         <h2 class="py-2 h5 text-primary">Power Transformers are used in the Following Applications</h2>
                         <div class="col-lg-6 col-md-6 my-2">
@@ -61,7 +61,7 @@
                             </tr>
                             <tr>
                                 <td>Cooling</td>
-                                <td>ONAN, ONAF, OFAF, ONWF, OFWF</td>
+                                <td>ONAN, ONAF</td>
                             </tr>
                             <tr>
                                 <td>Tap Changer</td>

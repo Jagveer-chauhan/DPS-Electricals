@@ -51,7 +51,7 @@
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>From 250 KVA to 30 MVA</td>
+                                <td>From 10 KVA to 2500 KVA</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>
@@ -63,7 +63,7 @@
                             </tr>
                             <tr>
                                 <td>Cooling</td>
-                                <td>ONAN, ONAF, OFAF, ONWF, OFWF</td>
+                                <td>ONAN, ONAF</td>
                             </tr>
                             <tr>
                                 <td>Tap Changer</td>

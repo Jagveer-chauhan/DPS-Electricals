@@ -23,3 +23,6 @@
         </ul>
     </div>
 </nav>
+<a href="https://api.whatsapp.com/send?phone=9818520700&text=hi" class="float" target="_blank">
+<i class="fa-brands fa-whatsapp my-float"></i>
+</a>

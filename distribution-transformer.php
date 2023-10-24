@@ -28,7 +28,7 @@
                 <div class=" d-flex flex-column col-lg-8 p-lg-5 p-md-5 p-sm-5 mt-2 bg-white">
                     <img src="./assets/images/Distribution Transformer.webp" class="img-fluid" alt="power transformer image" loading="lazy">
                     <h1 class="py-4 text-primary">Distribution Transformer <hr class="w-50 mt-1 border border-3 border-primary rounded-circle"></h1>
-                    <p class="mb-4 product-detail-text">The Distribution Transformer plays a crucial role in the electric power distribution system as it serves as the ultimate voltage transformation point. Typically found in substations near the consumer's location, medium and large distribution transformers receive high-voltage electricity from the grid and then step it down to lower voltages such as 433/250, 415/240, 400/230, or 380/220 Volts. These transformers are responsible for distributing electricity to both consumers and lower-voltage substations, making them a pivotal component of the power distribution network. At DPS Electricals, we offer distribution transformers with capacities of up to 10 MVA and primary/secondary voltage ratings of up to 66kV. Our transformers come equipped with all the necessary accessories to ensure seamless operation. What sets our Distribution Transformers apart is their BIS Certification, Star rating, and outstanding energy efficiency with minimal losses. With DPS Electricals, you can trust in reliable and efficient power distribution solutions.</p>
+                    <p class="mb-4 product-detail-text">The Distribution Transformer plays a crucial role in the electric power distribution system as it serves as the ultimate voltage transformation point. Typically found in substations near the consumer's location, medium and large distribution transformers receive high-voltage electricity from the grid and then step it down to lower voltages such as 433/250, 415/240, 400/230, or 380/220 Volts. These transformers are responsible for distributing electricity to both consumers and lower-voltage substations, making them a pivotal component of the power distribution network. At DPS Electricals. Our transformers come equipped with all the necessary accessories to ensure seamless operation. What sets our Distribution Transformers apart is their BIS Certification, Star rating, and outstanding energy efficiency with minimal losses. With DPS Electricals, you can trust in reliable and efficient power distribution solutions.</p>
                     <div class="row">
                         <h2 class="py-2 h5 text-primary">Distribution Transformers are used in the Following Applications</h2>
                         <div class="col-lg-6 col-md-6 my-2">
@@ -57,7 +57,7 @@
                             <th colspan="2" class="text-center h4 text-light font-weight-bolds bg-dark">Product Detail</th>
                             <tr>
                                 <td>Capacity</td>
-                                <td>From 16 KVA to 200 kVA</td>
+                                <td>From 16 KVA to 2500 kVA</td>
                             </tr>
                             <tr>
                                 <td>Voltage Class</td>
